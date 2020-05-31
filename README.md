@@ -1,5 +1,8 @@
 # ElasticPyProxy : A controller for dynamic scaling of Haproxy backend servers
 
+[![Join the chat at https://gitter.im/LazyWolves/ElasticPyProxy](https://badges.gitter.im/LazyWolves/ElasticPyProxy.svg)](https://gitter.im/LazyWolves/ElasticPyProxy?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+
 ElasticPyProxy (EP2) is a controller written completely in python for dynamically scaling HAProxy backend servers. Using this
 controller, it is possible to integrate HAProxy with a server orchestrator which spwans servers dynamically and scales
 out and in very frequently. As of now it provides support for the following:
